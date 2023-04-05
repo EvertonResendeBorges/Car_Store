@@ -1,0 +1,27 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    min-height: 70px;
+    left: 0px;
+    top: 0px;
+
+    background: #F78B00;
+}
+
+.carros_top{
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 20px;
+    top: 21px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #00285F;
+}

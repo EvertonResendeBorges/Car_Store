@@ -1,0 +1,105 @@
+.card {
+    
+    position: absolute;
+    width: 300px;
+    height: 347px;
+    left: 10px;
+    top: 196px;
+
+    background: #EDEDED;
+    border-radius: 10px;
+}
+
+.car-card-image {
+
+    position: absolute;
+    width: 220.72px;
+    height: 165px;
+    left: 37px;
+    top: -3px;
+
+    background: url(car-card.png);
+
+}
+
+.modelo {
+
+    position: absolute;
+    width: 263.86px;
+    height: 21px;
+    left: 86px;
+    top: 171px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+    
+}
+
+.descricao{
+
+    position: absolute;
+    width: 264px;
+    height: 32px;
+    left: 38px;
+    top: 208px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #585858;
+
+}
+
+.botao {
+
+    position: absolute;
+    width: 257.93px;
+    height: 40px;
+    left: -10px;
+    top: -210px;
+    
+}
+
+.comprar {
+
+    position: absolute;
+    width: 97.94px;
+    height: 16px;
+    left: 109.52px;
+    top: 500px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+}
+
+.botaoCor {
+
+    position: absolute;
+    width: 257.93px;
+    height: 40px;
+    left: 30.07px;
+    top: 488px;
+
+    background: #00285F;
+    border-radius: 5px;
+
+}

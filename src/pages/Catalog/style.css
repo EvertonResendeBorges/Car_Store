@@ -1,0 +1,13 @@
+.card1{
+    position: absolute;
+    width: 300px;
+    height: 347px;
+    left: -2px;
+    top: -45px; 
+}
+
+.card2{
+    position: absolute;
+    top: 312px;
+    left: -2px;
+}

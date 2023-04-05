@@ -1,0 +1,124 @@
+.banner{
+    position: absolute;
+    width: 300px;
+    height: 365px;
+    left: 10px;
+    top: 90px;
+
+    background: #00285F;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.car_header{
+    position: absolute;
+    width: 244px;
+    height: 146px;
+    left: 38px;
+    top: 58px;
+    background: url(car-header.png) no-repeat;
+}
+
+.textos {
+    position: absolute;
+    width: 259px;
+    height: 71px;
+    left: -39px;
+    top: -167px;
+}
+
+.texto1 {
+    position: absolute;
+    width: 257px;
+    height: 26px;
+    left: 32px;
+    top: 333px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.texto2 {
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 30px;
+    top: 372px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+@media (min-width: 576px) {
+    .banner{
+        width: 536px;
+        height: 365px;
+        left: 20px;
+        top: 100px;
+    }
+
+    .car_header{
+        width: 333px;
+        height: 199px;
+        left: 121px;
+        top: 86px;
+    }
+
+    .textos{
+        width: 437px;
+        height: 84px;
+        left: -134px;
+        top: -195px;
+    }
+
+    .texto1{
+        width: 420px;
+        height: 42px;
+        left: 78px;
+        top: 340px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto2{
+        width: 420px;
+        height: 42px;
+        left: 61px;
+        top: 382px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}
